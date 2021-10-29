@@ -1,0 +1,5 @@
+add_library(GenOperator GenOperator.cpp classAndVarDefine.cpp config.cpp GenerateAChrom.cpp ../IHEFT3.cpp ../IHEFT3.h)
+add_library(tools tools.cpp ../IHEFT3.cpp ../IHEFT3.h)
+add_library(pugixml pugixml.cpp ../IHEFT3.cpp ../IHEFT3.h)
+add_library(classAndVarDefine classAndVarDefine.cpp )
+add_library(config config.cpp ../IHEFT3.cpp ../IHEFT3.h)
